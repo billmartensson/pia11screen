@@ -11,7 +11,9 @@ import SwiftUI
 struct pia11screenApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            //GeoView()
+            OtherView()
         }
     }
 }

@@ -11,6 +11,9 @@
 		ABFA2EF829472F7C000D3AD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA2EF729472F7C000D3AD6 /* ContentView.swift */; };
 		ABFA2EFA29472F7D000D3AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFA2EF929472F7D000D3AD6 /* Assets.xcassets */; };
 		ABFA2EFD29472F7D000D3AD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFA2EFC29472F7D000D3AD6 /* Preview Assets.xcassets */; };
+		ABFA2F0429472FDD000D3AD6 /* ReadmoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA2F0329472FDD000D3AD6 /* ReadmoreView.swift */; };
+		ABFA2F0629473540000D3AD6 /* GeoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA2F0529473540000D3AD6 /* GeoView.swift */; };
+		ABFA2F082947495E000D3AD6 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA2F072947495E000D3AD6 /* OtherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		ABFA2EF729472F7C000D3AD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABFA2EF929472F7D000D3AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABFA2EFC29472F7D000D3AD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABFA2F0329472FDD000D3AD6 /* ReadmoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadmoreView.swift; sourceTree = "<group>"; };
+		ABFA2F0529473540000D3AD6 /* GeoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoView.swift; sourceTree = "<group>"; };
+		ABFA2F072947495E000D3AD6 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				ABFA2EF529472F7C000D3AD6 /* pia11screenApp.swift */,
 				ABFA2EF729472F7C000D3AD6 /* ContentView.swift */,
+				ABFA2F0529473540000D3AD6 /* GeoView.swift */,
+				ABFA2F072947495E000D3AD6 /* OtherView.swift */,
+				ABFA2F0329472FDD000D3AD6 /* ReadmoreView.swift */,
 				ABFA2EF929472F7D000D3AD6 /* Assets.xcassets */,
 				ABFA2EFB29472F7D000D3AD6 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFA2F0429472FDD000D3AD6 /* ReadmoreView.swift in Sources */,
 				ABFA2EF829472F7C000D3AD6 /* ContentView.swift in Sources */,
+				ABFA2F0629473540000D3AD6 /* GeoView.swift in Sources */,
 				ABFA2EF629472F7C000D3AD6 /* pia11screenApp.swift in Sources */,
+				ABFA2F082947495E000D3AD6 /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +294,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.pia11screen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,6 +326,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.pia11screen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
